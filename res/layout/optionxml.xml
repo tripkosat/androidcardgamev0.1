@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#003300"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/player1status"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/buttonxml"
+        android:gravity="center"
+        android:text="Ρυθμίσεις"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#EEEEEE"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textnumofcards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/buttonxml"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="3dp"
+        android:paddingTop="3dp"
+        android:text="Πόσα χαρτιά θα παίρνει ο κάθε παίχτης;"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:layout_marginTop="5dp"
+        android:divider="#000000" >
+
+        <RadioButton
+            android:id="@+id/radioA1"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/buttonxml"
+            android:button="@null"
+            android:drawableLeft="@android:drawable/btn_radio"
+            android:onClick="onRadioButtonClicked"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="4 Χαρτιά" />
+
+        <RadioButton
+            android:id="@+id/radioA2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/buttonxml"
+            android:button="@null"
+            android:drawableLeft="@android:drawable/btn_radio"
+            android:onClick="onRadioButtonClicked"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="6 Χαρτιά" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textdiskolia1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonxml"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="3dp"
+        android:paddingTop="3dp"
+        android:text="Επίπεδο Δυσκολίας:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="7dp"
+        android:divider="#000000" >
+
+        <RadioButton
+            android:id="@+id/radioB1"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/buttonxml"
+            android:button="@null"
+            android:drawableLeft="@android:drawable/btn_radio"
+            android:onClick="onRadioButtonClicked1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Εύκολο" />
+
+        <RadioButton
+            android:id="@+id/radioB2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/buttonxml"
+            android:button="@null"
+            android:drawableLeft="@android:drawable/btn_radio"
+            android:onClick="onRadioButtonClicked1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Μέτριο" />
+
+        <RadioButton
+            android:id="@+id/radioB3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/buttonxml"
+            android:button="@null"
+            android:drawableLeft="@android:drawable/btn_radio"
+            android:onClick="onRadioButtonClicked1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Δύσκολο" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="bottom" >
+
+        <TextView
+            android:id="@+id/textdiskolia2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/buttonxml"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="3dp"
+            android:paddingTop="3dp"
+            android:text="Μπορείτε να ορίσετε την δυσκολία, χρησιμοποιώντας την ακόλουθη μπάρα."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/skbstatus"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/buttonxml"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="3dp"
+            android:paddingTop="3dp"
+            android:text="0.0/1.0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="12sp" />
+
+        <SeekBar
+            android:id="@+id/skb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+  
+      
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textdiskolia2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom" >
+
+        <Button
+            android:id="@+id/apply"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonxml"
+            android:onClick="onButtonClick"
+            android:text="Εφαρμογή"
+            android:textColor="#EEEEEE"
+            android:textSize="20sp"
+            android:typeface="serif" />
+    </RelativeLayout>
+
+</LinearLayout>

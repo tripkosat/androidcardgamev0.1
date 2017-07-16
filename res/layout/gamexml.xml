@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lo1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004400" >
+
+    <TextView
+        android:id="@+id/player1status"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_above="@+id/im0"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/buttonxml"
+        android:padding="25dp"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/player2status"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_above="@+id/linearPL1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/im0"
+        android:layout_margin="5dp"
+        android:background="@drawable/buttonxml"
+        android:padding="25dp"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/im0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:focusable="false"
+        android:maxWidth="70dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/card_back_of_back" />
+
+    <LinearLayout
+        android:id="@+id/kseriL"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/player2status"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/ksL5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/ksL4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/ksL3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/ksL2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/ksL1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/ksL0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearPL2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearPL1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="7dp" >
+
+        <ImageButton
+            android:id="@+id/im5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back" />
+
+        <ImageButton
+            android:id="@+id/im6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back" />
+
+        <ImageButton
+            android:id="@+id/im7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back" />
+
+        <ImageButton
+            android:id="@+id/im8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back" />
+
+        <ImageButton
+            android:id="@+id/im65"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back" />
+
+        <ImageButton
+            android:id="@+id/im66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearPL1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="7dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/im1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="5dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_red_of_joker" />
+
+        <ImageButton
+            android:id="@+id/im2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_red_of_joker" />
+
+        <ImageButton
+            android:id="@+id/im3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_red_of_joker" />
+
+        <ImageButton
+            android:id="@+id/im4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_red_of_joker" />
+
+        <ImageButton
+            android:id="@+id/im61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_red_of_joker" />
+
+        <ImageButton
+            android:id="@+id/im62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="-15dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_red_of_joker" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/kseriR"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearPL2"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/ksR0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/ksR1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/ksR2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/ksR3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/ksR4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/ksR5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/im12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/player2status"
+        android:layout_alignRight="@+id/linearPL2"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:focusable="false"
+        android:maxWidth="70dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/card_back_of_back" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/kseriR"
+        android:layout_alignLeft="@+id/player1status"
+        android:layout_alignRight="@+id/im12"
+        android:layout_alignTop="@+id/kseriR"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/whoplaysfirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/buttonxml"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="Θέλεις να παίζεις πρώτος ή δεύτερος;"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#EEEEEE"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/playfirst"
+            android:layout_width="180dp"
+            android:layout_gravity="center"
+            android:layout_height="30dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="0.38"
+            android:background="@drawable/buttonxml"
+            android:text="Πρώτος"
+            android:textColor="#EEEEEE"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/playsecond"
+               android:layout_width="180dp"
+            android:layout_gravity="center"
+            android:layout_height="30dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="0.33"
+
+            android:background="@drawable/buttonxml"
+            android:text="Δεύτερος"
+            android:textColor="#EEEEEE"
+            android:textSize="20sp"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tempL"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_below="@+id/player1status"
+        android:layout_toLeftOf="@+id/kseriR"
+        android:layout_toRightOf="@+id/kseriL"
+        android:background="@drawable/cardsview"
+        android:gravity="center"
+        android:visibility="invisible" >
+
+        <ImageButton
+            android:id="@+id/tempCard4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/tempCard3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/tempCard2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/tempCard1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+</RelativeLayout>

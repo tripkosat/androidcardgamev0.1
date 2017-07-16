@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lo1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004400"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/multimakeDisc"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/buttonxml"
+        android:text="Κάνε την συσκευή ορατή"
+        android:textColor="#EEEEEE"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/multitextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_above="@+id/multitempL"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/buttonxml"
+        android:padding="25dp"
+        android:textColor="#EEEEEE"
+        android:textSize="25sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/multitextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_above="@+id/multilinearPL1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/multiim0"
+        android:layout_margin="5dp"
+        android:background="@drawable/buttonxml"
+        android:padding="25dp"
+        android:textColor="#EEEEEE"
+        android:textSize="25sp"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/multiim0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:focusable="false"
+        android:maxWidth="70dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/card_back_of_back"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/multilinearPL2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/multilinearPL1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="7dp"
+        android:visibility="invisible" >
+
+        <ImageButton
+            android:id="@+id/multiim5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back" />
+
+        <ImageButton
+            android:id="@+id/multiim6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back" />
+
+        <ImageButton
+            android:id="@+id/multiim7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back" />
+
+        <ImageButton
+            android:id="@+id/multiim8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back" />
+
+        <ImageButton
+            android:id="@+id/multiim65"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back" />
+
+        <ImageButton
+            android:id="@+id/multiim66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/multilinearPL1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="7dp"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+
+        <ImageButton
+            android:id="@+id/multiim1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="5dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_red_of_joker" />
+
+        <ImageButton
+            android:id="@+id/multiim2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_red_of_joker" />
+
+        <ImageButton
+            android:id="@+id/multiim3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_red_of_joker" />
+
+        <ImageButton
+            android:id="@+id/multiim4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_red_of_joker" />
+
+        <ImageButton
+            android:id="@+id/multiim61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_red_of_joker" />
+
+        <ImageButton
+            android:id="@+id/multiim62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="-15dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_red_of_joker" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/multitempL"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/multikseriR"
+        android:layout_toRightOf="@+id/multikseriL"
+        android:background="@drawable/cardsview"
+        android:gravity="center"
+        android:visibility="invisible" >
+
+        <ImageButton
+            android:id="@+id/multitempCard4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/multitempCard3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/multitempCard2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/multitempCard1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:maxWidth="70dp"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/multistartthegame11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/multitextView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/multitextView1"
+        android:background="@drawable/buttonxml"
+        android:text="Αρχικοποίηση Παιχνιδιού"
+        android:textColor="#EEEEEE"
+        android:textSize="25sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/multidiscDev"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/multimakeDisc"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/buttonxml"
+        android:text="Εύρεση συσκευών"
+        android:textColor="#EEEEEE"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/multidevicelist"
+        android:layout_width="143dp"
+        android:layout_height="120dp"
+        android:layout_alignLeft="@+id/multitextView1"
+        android:layout_alignRight="@+id/multitextView2"
+        android:layout_below="@+id/multidiscDev"
+        android:layout_marginTop="22dp"
+        android:textColor="#EEEEEE"
+        android:textSize="25sp" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/multikseriL"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/multitextView2"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/multiksL5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/multiksL4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/multiksL3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/multiksL2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/multiksL1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/multiksL0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/multikseriR"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/multidiscDev"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/multiksR0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/multiksR1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/multiksR2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/multiksR3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/multiksR4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/multiksR5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-30dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/card_back_of_back"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/multinewgame"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/multistartthegame11"
+        android:background="@drawable/buttonxml"
+        android:text="Νέο Παιχνίδι"
+        android:textColor="#EEEEEE"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>
